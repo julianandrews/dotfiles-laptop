@@ -1,0 +1,10 @@
+output eDP-1 enable mode preferred position 0,0 scale 1.2
+
+profile laptop-only {
+    output eDP-1
+}
+
+profile laptop-plus-external {
+    output eDP-1
+    output * enable mode preferred position 1600,0 scale 1
+}
