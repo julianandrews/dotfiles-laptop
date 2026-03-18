@@ -120,6 +120,8 @@ export EDITOR=nvim
 export VISUAL="$EDITOR"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
+eval "$(fzf --bash)"
+
 # Set terminal title to current command or directory
 case "$TERM" in
   foot*|xterm*|rxvt*)

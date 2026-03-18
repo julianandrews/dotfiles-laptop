@@ -9,6 +9,7 @@ foot
 foot-themes
 fuzzel
 fyi
+fzf
 git
 grim
 hypridle
@@ -24,6 +25,7 @@ mako-notifier
 neovim
 pipewire-audio
 python-is-python3
+ripgrep
 slurp
 systemd-resolved
 unzip
