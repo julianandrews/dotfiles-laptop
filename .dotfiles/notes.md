@@ -36,4 +36,3 @@
 - completion
 - linter
 - autoformat
-- copy/paste
