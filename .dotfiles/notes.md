@@ -5,12 +5,12 @@
 - installed DejaVuSansM Nerd Font in ~/.local/share/fonts and ran `fc-cache -fv`
 - sudo usermod -a -G render julian
 - added wallpapers to ~/.local/share/wallpapers
+- installed opencode binary in ~/.local/bin
 
 ## TODO
 
 - clipboard manager?
 - bitwarden?
-- opencode?
 
 ### hyprland config
 

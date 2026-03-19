@@ -123,3 +123,5 @@ fi
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 command -v fzf &>/dev/null && eval "$(fzf --bash)"
+
+export PATH="$HOME/.local/bin:$PATH"
