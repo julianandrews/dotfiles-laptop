@@ -25,12 +25,12 @@ iwd
 kanshi
 mako-notifier
 neovim
-neovim-treesitter
 pipewire-audio
 python-is-python3
 ripgrep
 slurp
 systemd-resolved
+tree-sitter-cli
 unzip
 waybar
 wev
