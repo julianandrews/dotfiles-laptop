@@ -5,6 +5,7 @@ curl
 ffmpeg
 fonts-font-awesome
 fonts-fork-awesome
+fonts-recommended
 foot
 foot-themes
 fuzzel
@@ -23,6 +24,7 @@ iwd
 kanshi
 mako-notifier
 neovim
+neovim-treesitter
 pipewire-audio
 python-is-python3
 ripgrep

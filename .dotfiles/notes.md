@@ -38,6 +38,7 @@
 ### neovim config
 
 - LSP
+- completion
+- linter
+- autoformat
 - copy/paste
-- fzf
-- theme
