@@ -12,11 +12,6 @@
 - bitwarden?
 - opencode?
 
-### bash config
-
-- colors
-- fzf
-
 ### hyprland config
 
 - laptop keys

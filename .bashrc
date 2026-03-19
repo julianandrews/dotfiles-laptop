@@ -37,7 +37,7 @@ fi
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
+    foot|xterm-color|*-256color) color_prompt=yes;;
 esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[38;5;163m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -65,7 +65,7 @@ unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
-xterm*|rxvt*)
+foot|xterm*|rxvt*)
     PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
     ;;
 *)
@@ -116,15 +116,10 @@ dotfiles() {
     git --git-dir="$HOME/.dotfiles/repo" --work-tree="$HOME" "$@"
 }
 
-export EDITOR=nvim
-export VISUAL="$EDITOR"
+if command -v nvim &>/dev/null; then
+    export EDITOR=nvim
+    export VISUAL="$EDITOR"
+fi
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
-eval "$(fzf --bash)"
-
-# Set terminal title to current command or directory
-case "$TERM" in
-  foot*|xterm*|rxvt*)
-    trap 'echo -ne "\033]0;${BASH_COMMAND} (${PWD##*/})\007"' DEBUG
-    ;;
-esac
+command -v fzf &>/dev/null && eval "$(fzf --bash)"
