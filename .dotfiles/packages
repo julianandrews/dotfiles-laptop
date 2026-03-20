@@ -27,6 +27,7 @@ mako-notifier
 neovim
 pavucontrol
 pipewire-audio
+power-profiles-daemon
 python-is-python3
 ripgrep
 slurp
