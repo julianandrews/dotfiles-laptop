@@ -20,7 +20,6 @@
   - acer button
   - menu button
   - assist button
-- window rules (chromium notifications?)
 - eyecandy? (see /usr/share/hypr/hyprland.conf)
 - touchpad gestures?
 - consider uwsm (systemd for stuff)
@@ -28,7 +27,7 @@
 ### waybar config
 
 - font isues
-- workspaces
+- general config
 
 ### neovim config
 
