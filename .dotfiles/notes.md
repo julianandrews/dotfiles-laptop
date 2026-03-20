@@ -24,10 +24,6 @@
 - touchpad gestures?
 - consider uwsm (systemd for stuff)
 
-### waybar config
-
-- styles
-
 ### neovim config
 
 - LSP
