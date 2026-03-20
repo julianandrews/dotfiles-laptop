@@ -2,7 +2,7 @@
 
 ## Manual steps
 
-- installed DejaVuSansM Nerd Font in ~/.local/share/fonts and ran `fc-cache -fv`
+- installed DejaVuSansM Nerd Font and FontAwesome in ~/.local/share/fonts and ran `fc-cache -fv`
 - sudo usermod -a -G render julian
 - added wallpapers to ~/.local/share/wallpapers
 - installed opencode binary in ~/.local/bin
@@ -26,8 +26,7 @@
 
 ### waybar config
 
-- font isues
-- general config
+- styles
 
 ### neovim config
 
