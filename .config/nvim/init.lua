@@ -6,6 +6,7 @@ vim.opt.number = true
 vim.opt.cmdheight = 2
 vim.opt.undofile = true
 vim.opt.signcolumn = "yes"
+vim.opt.hlsearch = false
 vim.opt.clipboard = "unnamedplus"
 
 -- Tab / Indentation
