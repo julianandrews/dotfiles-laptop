@@ -121,7 +121,7 @@ if command -v nvim &>/dev/null; then
     export VISUAL="$EDITOR"
 fi
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+export HISTFILE="$HOME/.local/share/bash/history"
+export PYTHON_HISTORY="$HOME/.local/share/python/history"
 
 command -v fzf &>/dev/null && eval "$(fzf --bash)"
-
-export PATH="$HOME/.local/bin:$PATH"

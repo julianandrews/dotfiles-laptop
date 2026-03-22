@@ -1,6 +1,5 @@
 blueman
 brightnessctl
-chromium
 curl
 ffmpeg
 fonts-recommended
@@ -34,6 +33,7 @@ tree-sitter-cli
 unzip
 waybar
 wev
+wget
 wl-clipboard
 wlr-randr
 xwayland
